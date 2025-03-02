@@ -17,3 +17,6 @@ void AddObject(FVector* pos, Gfx* model, float scale, CollisionType collision, f
 * Call Editor::Draw() at the end of the game draw code.
 * Call Editor::Tick() at the end of the game ticking code.
 * Call Editor::Load() near the start of game initialization.
+* Setup a cvar to enable or disable the editor.
+
+* Freecam not yet included*
