@@ -2,12 +2,12 @@
 
 Editor that can interface with any port.
 
-## How to make an object selectible in the editor
+## How to make an object selectable in the editor
 ```
 #include "Editor.h"
 /**
-  * @arg model Provide the displaylist that contains vertices to setup accurate object selection
-  * @arg boundingBoxSize Set model to NULL and provide a boundingBoxSize to skip adding collision
+  * model Provide the displaylist that contains vertices to setup accurate object selection
+  * boundingBoxSize Set model to NULL and provide a boundingBoxSize to skip adding collision
  */
 void AddObject(FVector* pos, Gfx* model, float scale, CollisionType collision, float boundingBoxSize)
 ```
